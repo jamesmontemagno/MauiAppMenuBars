@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppMenuBars.MainPage">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+            
+        </MenuBarItem>
+        <MenuBarItem Text="Locations">
+            
+            <MenuFlyoutSubItem Text="Change Location">
+                <MenuFlyoutItem Text="Redmond, USA" />
+                <MenuFlyoutItem Text="London, UK" />
+                <MenuFlyoutItem Text="Berlin, DE"/>
+            </MenuFlyoutSubItem>
+
+        </MenuBarItem>
+        <MenuBarItem Text="View">
+
+            <MenuFlyoutItem Text="Refresh"
+                            Clicked="RefreshClicked"/>
+
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+   
+
+</ContentPage>
